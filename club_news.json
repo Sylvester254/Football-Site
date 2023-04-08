@@ -1,0 +1,43 @@
+{
+  "original_news": [
+    {
+      "title": "Manchester United Wins Against Rivals",
+      "summary": "Manchester United secures an important victory against their rivals in a thrilling match.",
+      "url": " ",
+      "image_url": "https://path/to/news/image/1",
+      "date_published": "2023-04-01"
+    },
+    {
+      "title": "New Signing Shines in Debut Match",
+      "summary": "Manchester United's latest signing made an impressive debut, scoring a crucial goal.",
+      "url": " ",
+      "image_url": "https://path/to/news/image/2",
+      "date_published": "2023-04-03"
+    },
+    {
+      "title": "Manchester United Reaches Cup Semi-Finals",
+      "summary": "The club advances to the semi-finals of the prestigious cup competition after a decisive win.",
+      "url": " ",
+      "image_url": "https://path/to/news/image/3",
+      "date_published": "2023-04-06"
+    }
+  ],
+  "external_news": [
+    {
+      "title": "Manchester United's Tactical Masterclass",
+      "source": "Example Sports",
+      "url": "https://www.examplesports.com/manchester-united-tactical-masterclass"
+    },
+    {
+      "title": "In-Depth Analysis: United's Midfield",
+      "source": "Football Insider",
+      "url": "https://www.footballinsider.com/manchester-united-midfield-analysis"
+    },
+    {
+      "title": "Breaking Down Manchester United's Defense",
+      "source": "Soccer News Daily",
+      "url": "https://www.soccernewsdaily.com/manchester-united-defense-breakdown"
+    },
+    // Add more external news articles here
+  ]
+}

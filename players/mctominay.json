@@ -1,0 +1,21 @@
+{
+  "id": 6,
+  "name": "Scott McTominay",
+  "position": "Central Midfielder",
+  "age": 26,
+  "nationality": "Scotland",
+  "shirt_number": 39,
+  "appearances": 17,
+  "goals": 2,
+  "biography": "Scott McTominay is a versatile central midfielder who has been with Manchester United since his youth career. With his physical presence and ability to contribute in both attack and defense, McTominay has become an important player for the team.",
+  "key_facts": {
+    "club_history": ["Manchester United"],
+    "current_season_appearances": 17,
+    "current_season_goals": 2
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_mctominay",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_mctominay",
+    "podcasts": "https://www.example.com/podcasts_mctominay"
+  }
+}

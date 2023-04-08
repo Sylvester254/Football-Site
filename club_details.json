@@ -1,0 +1,21 @@
+{
+  "overview": {
+    "club_name": "Manchester United",
+    "stadium": "Old Trafford",
+    "stadium_img": " "
+    "home_kit": "Red and White",
+    "h_kit_img": " "
+    "away_kit": "Blue and White",
+    "a_kit_img": " "
+    "league": "English Premier League",
+    "logo_url": "https://path/to/logo/image"
+  },
+  "history": {
+    "brief": "Manchester United, founded in 1878, is one of the most successful football clubs in England, boasting numerous domestic and international titles.",
+    "read_more": "history.json"
+  },
+  "management": {
+    "brief": "Manchester United's management includes a skilled board of directors and key non-playing staff, such as the manager, first-team coaches, and the chairman.",
+    "read_more": "management.json"
+  }
+}

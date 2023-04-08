@@ -1,0 +1,21 @@
+{
+  "id": 5,
+  "name": "Aaron Wan-Bissaka",
+  "position": "Right Back",
+  "age": 25,
+  "nationality": "England",
+  "shirt_number": 29,
+  "appearances": 19,
+  "goals": 0,
+  "biography": "Aaron Wan-Bissaka is a skilled right back who joined Manchester United in 2019. Known for his exceptional tackling ability and defensive awareness, Wan-Bissaka has solidified his position in the team's defense.",
+  "key_facts": {
+    "club_history": ["Crystal Palace", "Manchester United"],
+    "current_season_appearances": 19,
+    "current_season_goals": 0
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_wan_bissaka",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_wan_bissaka",
+    "podcasts": "https://www.example.com/podcasts_wan_bissaka"
+  }
+}

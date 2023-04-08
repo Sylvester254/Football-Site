@@ -1,0 +1,21 @@
+{
+  "id": 2,
+  "name": "Harry Maguire",
+  "position": "Centre Back",
+  "age": 29,
+  "nationality": "England",
+  "shirt_number": 5,
+  "appearances": 22,
+  "goals": 3,
+  "biography": "Harry Maguire is a strong and reliable centre back who joined Manchester United in 2019. As the club captain, he leads the team with his commanding presence and aerial prowess.",
+  "key_facts": {
+    "club_history": ["Sheffield United", "Hull City", "Leicester City", "Manchester United"],
+    "current_season_appearances": 22,
+    "current_season_goals": 3
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_maguire",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_maguire",
+    "podcasts": "https://www.example.com/podcasts_maguire"
+  }
+}

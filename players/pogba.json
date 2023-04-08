@@ -1,0 +1,21 @@
+{
+  "id": 9,
+  "name": "Paul Pogba",
+  "position": "Central Midfielder",
+  "age": 29,
+  "nationality": "France",
+  "shirt_number": 6,
+  "appearances": 16,
+  "goals": 3,
+  "biography": "Paul Pogba is a world-class central midfielder who rejoined Manchester United in 2016. With his physical strength, technical skills, and ability to score goals, Pogba has been an integral part of the team.",
+  "key_facts": {
+    "club_history": ["Manchester United", "Juventus", "Manchester United"],
+    "current_season_appearances": 16,
+    "current_season_goals": 3
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_pogba",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_pogba",
+    "podcasts": "https://www.example.com/podcasts_pogba"
+  }
+}

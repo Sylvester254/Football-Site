@@ -1,0 +1,45 @@
+{
+  "founded": 1878,
+  "founders": ["Lancashire and Yorkshire Railway"],
+  "important_dates": [
+    {
+      "year": 1902,
+      "event": "Club renamed to Manchester United"
+    },
+    {
+      "year": 1910,
+      "event": "Old Trafford stadium opened"
+    },
+    {
+      "year": 1958,
+      "event": "Munich air disaster"
+    },
+    {
+      "year": 1999,
+      "event": "Treble-winning season"
+    }
+  ],
+  "key_trophies": [
+    {
+      "name": "English Premier League",
+      "count": 20
+    },
+    {
+      "name": "FA Cup",
+      "count": 12
+    },
+    {
+      "name": "UEFA Champions League",
+      "count": 3
+    }
+  ],
+  "club_legends": [
+    "Sir Bobby Charlton",
+    "George Best",
+    "Ryan Giggs",
+    "Paul Scholes",
+    "Eric Cantona"
+  ],
+  "More": [" ..."]
+}
+

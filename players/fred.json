@@ -1,0 +1,21 @@
+{
+  "id": 7,
+  "name": "Fred",
+  "position": "Central Midfielder",
+  "age": 29,
+  "nationality": "Brazil",
+  "shirt_number": 17,
+  "appearances": 20,
+  "goals": 1,
+  "biography": "Fred is a hardworking central midfielder who joined Manchester United in 2018. Known for his tenacity and passing ability, Fred has become a key figure in the team's midfield.",
+  "key_facts": {
+    "club_history": ["Shakhtar Donetsk", "Manchester United"],
+    "current_season_appearances": 20,
+    "current_season_goals": 1
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_fred",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_fred",
+    "podcasts": "https://www.example.com/podcasts_fred"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": 1,
+  "name": "David de Gea",
+  "image": " "
+  "position": "Goalkeeper",
+  "age": 31,
+  "nationality": "Spain",
+  "shirt_number": 1,
+  "appearances": 20,
+  "goals": 0,
+  "biography": "David de Gea is a talented goalkeeper who has been a key figure at Manchester United since joining the club in 2011. Known for his incredible reflexes and shot-stopping ability, De Gea has been an integral part of the team.",
+  "key_facts": {
+    "club_history": ["Atletico Madrid", "Manchester United"],
+    "current_season_appearances": 20,
+    "current_season_goals": 0
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_de_gea",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_de_gea",
+    "podcasts": "https://www.example.com/podcasts_de_gea"
+  }
+}

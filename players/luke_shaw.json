@@ -1,0 +1,21 @@
+{
+  "id": 4,
+  "name": "Luke Shaw",
+  "position": "Left Back",
+  "age": 26,
+  "nationality": "England",
+  "shirt_number": 23,
+  "appearances": 21,
+  "goals": 0,
+  "biography": "Luke Shaw is a talented left back who has been with Manchester United since 2014. Known for his strong defensive skills and ability to contribute in attack, Shaw has become a key player for the team.",
+  "key_facts": {
+    "club_history": ["Southampton", "Manchester United"],
+    "current_season_appearances": 21,
+    "current_season_goals": 0
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_shaw",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_shaw",
+    "podcasts": "https://www.example.com/podcasts_shaw"
+  }
+}

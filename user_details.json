@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "username": "football_fan_01",
+      "hashed_password": "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8", // This is just an example, make sure to hash the password securely using PHP.
+      "email": "football_fan_01@example.com"
+    },
+    {
+      "username": "manutd_lover",
+      "hashed_password": "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8",
+      "email": "manutd_lover@example.com"
+    },
+    {
+      "username": "red_devil_2000",
+      "hashed_password": "5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8",
+      "email": "red_devil_2000@example.com"
+    }
+  ]
+}

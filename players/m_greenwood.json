@@ -1,0 +1,21 @@
+{
+  "id": 10,
+  "name": "Mason Greenwood",
+  "position": "Right Winger",
+  "age": 21,
+  "nationality": "England",
+  "shirt_number": 11,
+  "appearances": 18,
+  "goals": 6,
+  "biography": "Mason Greenwood is a talented young winger who has been with Manchester United since his youth career. With his natural goal-scoring ability and skill on the ball, Greenwood has already made a significant impact on the team.",
+  "key_facts": {
+    "club_history": ["Manchester United"],
+    "current_season_appearances": 18,
+    "current_season_goals": 6
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_greenwood",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_greenwood",
+    "podcasts": "https://www.example.com/podcasts_greenwood"
+  }
+}

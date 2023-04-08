@@ -1,0 +1,21 @@
+{
+  "id": 3,
+  "name": "Raphael Varane",
+  "position": "Centre Back",
+  "age": 29,
+  "nationality": "France",
+  "shirt_number": 19,
+  "appearances": 18,
+  "goals": 1,
+  "biography": "Raphael Varane is an accomplished centre back who joined Manchester United in 2021. With exceptional speed and defensive intelligence, he has quickly become a key part of the team's defense.",
+  "key_facts": {
+    "club_history": ["Lens", "Real Madrid", "Manchester United"],
+    "current_season_appearances": 18,
+    "current_season_goals": 1
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_varane",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_varane",
+    "podcasts": "https://www.example.com/podcasts_varane"
+  }
+}

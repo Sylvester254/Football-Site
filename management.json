@@ -1,0 +1,30 @@
+{
+  "board_of_directors": [
+    {
+      "name": "Joel Glazer",
+      "position": "Co-Chairman"
+    },
+    {
+      "name": "Avram Glazer",
+      "position": "Co-Chairman"
+    },
+    {
+      "name": "Ed Woodward",
+      "position": "Executive Vice-Chairman"
+    }
+  ],
+  "key_staff": [
+    {
+      "name": "Manager",
+      "person": "John Doe" // Replace with the current manager's name
+    },
+    {
+      "name": "First-Team Coach",
+      "person": "Jane Smith" // Replace with the current first-team coach's name
+    },
+    {
+      "name": "Chairman",
+      "person": "Richard Roe" // Replace with the current chairman's name
+    }
+  ]
+}

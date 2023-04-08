@@ -1,0 +1,279 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "name": "David de Gea",
+      "position": "Goalkeeper",
+      "age": 31,
+      "nationality": "Spain",
+      "shirt_number": 1,
+      "appearances": 20,
+      "goals": 0,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 2,
+      "name": "Aaron Wan-Bissaka",
+      "position": "Right Back",
+      "age": 25,
+      "nationality": "England",
+      "shirt_number": 29,
+      "appearances": 18,
+      "goals": 1,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 3,
+      "name": "Victor Lindelof",
+      "position": "Centre Back",
+      "age": 28,
+      "nationality": "Sweden",
+      "shirt_number": 2,
+      "appearances": 16,
+      "goals": 0,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 4,
+      "name": "Harry Maguire",
+      "position": "Centre Back",
+      "age": 29,
+      "nationality": "England",
+      "shirt_number": 5,
+      "appearances": 20,
+      "goals": 2,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 5,
+      "name": "Luke Shaw",
+      "position": "Left Back",
+      "age": 27,
+      "nationality": "England",
+      "shirt_number": 23,
+      "appearances": 17,
+      "goals": 1,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 6,
+      "name": "Scott McTominay",
+      "position": "Central Midfield",
+      "age": 26,
+      "nationality": "Scotland",
+      "shirt_number": 39,
+      "appearances": 15,
+      "goals": 3,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 7,
+      "name": "Fred",
+      "position": "Central Midfield",
+      "age": 29,
+      "nationality": "Brazil",
+      "shirt_number": 17,
+      "appearances": 19,
+      "goals": 1,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 8,
+      "name": "Paul Pogba",
+      "position": "Central Midfield",
+      "age": 29,
+      "nationality": "France",
+      "shirt_number": 6,
+      "appearances": 14,
+      "goals": 2,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 9,
+      "name": "Bruno Fernandes",
+      "position": "Attacking Midfield",
+      "age": 28,
+      "nationality": "Portugal",
+      "shirt_number": 18,
+      "appearances": 20,
+      "goals": 10,
+      "player_info": "path to player page"
+    },
+    {
+      "id": 10,
+      "name": "Jadon Sancho",
+      "position": "Right Winger",
+      "age": 22,
+      "nationality": "England",
+      "shirt_number": 25,
+      "appearances": 16,
+      "goals": 4,
+      "player_info": "path to player page"
+    },
+{
+  "id": 11,
+  "name": "Marcus Rashford",
+  "position": "Left Winger",
+  "age": 25,
+  "nationality": "England",
+  "shirt_number": 10,
+  "appearances": 18,
+  "goals": 7,
+  "player_info": "path to player page"
+},
+{
+  "id": 12,
+  "name": "Cristiano Ronaldo",
+  "position": "Forward",
+  "age": 37,
+  "nationality": "Portugal",
+  "shirt_number": 7,
+  "appearances": 21,
+  "goals": 12,
+  "player_info": "path to player page"
+},
+{
+  "id": 13,
+  "name": "Dean Henderson",
+  "position": "Goalkeeper",
+  "age": 25,
+  "nationality": "England",
+  "shirt_number": 26,
+  "appearances": 5,
+  "goals": 0,
+      "player_info": "path to player page"
+},
+{
+  "id": 14,
+  "name": "Eric Bailly",
+  "position": "Centre Back",
+  "age": 28,
+  "nationality": "Ivory Coast",
+  "shirt_number": 3,
+  "appearances": 10,
+  "goals": 0
+},
+{
+  "id": 15,
+  "name": "Raphael Varane",
+  "position": "Centre Back",
+  "age": 29,
+  "nationality": "France",
+  "shirt_number": 19,
+  "appearances": 12,
+  "goals": 1,
+      "player_info": "path to player page"
+},
+{
+  "id": 16,
+  "name": "Alex Telles",
+  "position": "Left Back",
+  "age": 29,
+  "nationality": "Brazil",
+  "shirt_number": 27,
+  "appearances": 8,
+  "goals": 0,
+      "player_info": "path to player page"
+},
+{
+  "id": 17,
+  "name": "Nemanja Matic",
+  "position": "Defensive Midfield",
+  "age": 33,
+  "nationality": "Serbia",
+  "shirt_number": 31,
+  "appearances": 11,
+  "goals": 0,
+      "player_info": "path to player page"
+},
+{
+  "id": 18,
+  "name": "Donny van de Beek",
+  "position": "Central Midfield",
+  "age": 25,
+  "nationality": "Netherlands",
+  "shirt_number": 34,
+  "appearances": 9,
+  "goals": 1,
+      "player_info": "path to player page"
+},
+{
+  "id": 19,
+  "name": "Jesse Lingard",
+  "position": "Attacking Midfield",
+  "age": 29,
+  "nationality": "England",
+  "shirt_number": 14,
+  "appearances": 10,
+  "goals": 2,
+      "player_info": "path to player page"
+},
+{
+  "id": 20,
+  "name": "Anthony Martial",
+  "position": "Forward",
+  "age": 26,
+  "nationality": "France",
+  "shirt_number": 9,
+  "appearances": 14,
+  "goals": 4,
+      "player_info": "path to player page"
+},
+{
+  "id": 21,
+  "name": "Edinson Cavani",
+  "position": "Forward",
+  "age": 35,
+  "nationality": "Uruguay",
+  "shirt_number": 21,
+  "appearances": 13,
+  "goals": 5,
+      "player_info": "path to player page"
+},
+{
+  "id": 22,
+  "name": "Mason Greenwood",
+  "position": "Forward",
+  "age": 21,
+  "nationality": "England",
+  "shirt_number": 11,
+  "appearances": 17,
+  "goals": 6,
+      "player_info": "path to player page"
+},
+{
+  "id": 23,
+  "name": "Juan Mata",
+  "position": "Attacking Midfield",
+  "age": 34,
+  "nationality": "Spain",
+  "shirt_number": 8,
+  "appearances": 7,
+  "goals": 1,
+      "player_info": "path to player page"
+},
+{
+  "id": 24,
+  "name": "Phil Jones",
+  "position": "Centre Back",
+  "age": 30,
+  "nationality": "England",
+  "shirt_number": 4,
+  "appearances": 5,
+  "goals": 0,
+      "player_info": "path to player page"
+},
+{
+  "id": 25,
+  "name": "Amad Diallo",
+  "position": "Right Winger",
+  "age": 20,
+  "nationality": "Ivory Coast",
+  "shirt_number": 16,
+  "appearances": 6,
+  "goals": 1,
+      "player_info": "path to player page"
+}
+  ]
+}
+
