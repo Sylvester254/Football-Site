@@ -17,17 +17,17 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo"><a href="index.php">Twenty <span>by HTML5 UP</span></a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.html">Welcome</a></li>
+							<li class="current"><a href="index.php">Welcome</a></li>
 							<li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li><a href="contact.html">Contact</a></li>
+									<li><a href="left-sidebar.php">Left Sidebar</a></li>
+									<li><a href="right-sidebar.php">Right Sidebar</a></li>
+									<li><a href="no-sidebar.php">No Sidebar</a></li>
+									<li><a href="contact.php">Contact</a></li>
 									<li class="submenu">
 										<a href="#">Submenu</a>
 										<ul>
