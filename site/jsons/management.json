@@ -16,15 +16,15 @@
   "key_staff": [
     {
       "name": "Manager",
-      "person": "John Doe" // Replace with the current manager's name
+      "person": "John Doe" 
     },
     {
       "name": "First-Team Coach",
-      "person": "Jane Smith" // Replace with the current first-team coach's name
+      "person": "Jane Smith"
     },
     {
       "name": "Chairman",
-      "person": "Richard Roe" // Replace with the current chairman's name
+      "person": "Richard Roe"
     }
   ]
 }

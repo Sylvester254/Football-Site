@@ -1,11 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-
 	<head>
 		<title>No Sidebar - Twenty by HTML5 UP</title>
 		<meta charset="utf-8" />
@@ -15,63 +9,106 @@
 			<link rel="stylesheet" href="assets/css/noscript.css" />
 		</noscript>
 	</head>
-
 	<body class="no-sidebar is-preload">
 		<div id="page-wrapper">
-
 			<!-- Header -->
-				<header id="header">
-					<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
-					<nav id="nav">
-						<ul>
-							<li class="current"><a href="#">Club Management</a></li>
-							<li class="submenu">
-								<a href="#">Layouts</a>
-								<ul>
-									<li><a href="club_news.php">Club News</a></li>
-									<li><a href="squad.php">Our Squad</a></li>
-									<li class="submenu">
-										<a href="#">More</a>
-										<ul>
-											<li><a href="club_history.php">Club History</a></li>
-											<li><a href="club_management.php">Club Management</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="user_login.php" class="button primary">Sign Up</a></li>
-						</ul>
-					</nav>
-				</header>
+			<header id="header">
+				<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="current"><a href="#">Club Management</a></li>
+						<li class="submenu">
+							<a href="#">Layouts</a>
+							<ul>
+								<li><a href="club_news.php">Club News</a></li>
+								<li><a href="squad.php">Our Squad</a></li>
+								<li class="submenu">
+									<a href="#">More</a>
+									<ul>
+										<li><a href="club_history.php">Club History</a></li>
+										<li><a href="club_management.php">Club Management</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><a href="user_login.php" class="button primary">Sign Up</a></li>
+					</ul>
+				</nav>
+			</header>
+			<br><br>
+			<!-- One -->
+			<section class="wrapper style4 container">
+				<!-- Content -->
+				<div class="content">
+					<section>
+						<header>
+							<h3>Club Management</h3>
+						</header>
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Position</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php
+									// Load the JSON data from file
+									$json = file_get_contents('jsons/management.json');
+									$data = json_decode($json, true);
 
-			<!-- Main -->
-			<article id="main">
+									// Loop through the board of directors and output each member
+									foreach ($data['board_of_directors'] as $member) {
+										echo '<tr>';
+										echo '<td>' . $member['name'] . '</td>';
+										echo '<td>' . $member['position'] . '</td>';
+										echo '</tr>';
+									}
 
-				<header class="special container">
-					<span class="icon solid fa-mobile-alt"></span>
-					<h2>And finally there's <strong>No Sidebar</strong></h2>
-					<p>Where that in the center faces the nameless horrors alone.</p>
-				</header>
-
-				<!-- One -->
-				<section class="wrapper style4 container">
-
-					<!-- Content -->
-					<div class="content">
-						<section>
-							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-							<header>
-								<h3>Dolore Amet Consequat</h3>
-							</header>
-						</section>
-					</div>
-
-				</section>
-
-				<!-- Two -->
-				
-
+									// Loop through the key staff and output each member
+									foreach ($data['key_staff'] as $member) {
+										echo '<tr>';
+										echo '<td>' . $member['name'] . '</td>';
+										echo '<td>' . $member['person'] . '</td>';
+										echo '</tr>';
+									}
+									?>
+								</tbody>
+							</table>
+						</div>
+					</section>
+				</div>
+			</section>
 			</article>
+
+			<style>
+				.table-wrapper {
+					overflow-x: auto;
+				}
+
+				table {
+					width: 100%;
+					border-collapse: collapse;
+					border-spacing: 0;
+					text-align: left;
+				}
+
+				th,
+				td {
+					padding: 0.75em;
+					border-bottom: 1px solid #ccc;
+				}
+
+				th {
+					background-color: #eee;
+					font-weight: bold;
+				}
+
+				tbody tr:hover {
+					background-color: #f5f5f5;
+				}
+			</style>
 
 			<!-- Footer -->
 			<footer id="footer">
@@ -105,7 +142,6 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-
 	</body>
 
 </html>
