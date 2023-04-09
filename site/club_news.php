@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>Left Sidebar - Twenty by HTML5 UP</title>
@@ -17,7 +13,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="club_details.php">Home</a></li>

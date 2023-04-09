@@ -1,26 +1,26 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
-		<title>Contact - Twenty by HTML5 UP</title>
+		<title>Manchester United Squad</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>		
 	</head>
 	<body class="contact is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="club_details.php">Home</a></li>
+							<li class="current"><a href="#">Home</a></li>
 							<li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
@@ -44,9 +44,9 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon solid fa-envelope"></span>
-						<h2>Get In Touch</h2>
-						<p>Use the form below to give /dev/null a piece of your mind.</p>
+						
+						<h2>Manchester United Squad</h2>
+						<p>25-man squad</p>
 					</header>
 
 					<!-- One -->
@@ -54,27 +54,39 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
-										<div class="row gtr-50">
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="7"></textarea>
-											</div>
-											<div class="col-12">
-												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<div class="table-responsive">
+                                        <table class="table table-bordered table-hover">
+                                          <thead class="thead-dark">
+                                            <tr>
+                                              <th>Name</th>
+                                              <th>Position</th>
+                                              <th>Age</th>
+                                              <th>Nationality</th>
+                                              <th>Shirt Number</th>
+                                              <th>Appearances</th>
+                                              <th>Goals</th>
+                                              <th>Details</th>
+                                            </tr>
+                                          </thead>
+                                          <tbody>
+                                            <?php
+                                            $squad_data = json_decode(file_get_contents("jsons/squad_details.json"), true)["players"];
+                                              foreach($squad_data as $player) {
+                                                echo "<tr>";
+                                                echo "<td>" . $player["name"] . "</td>";
+                                                echo "<td>" . $player["position"] . "</td>";
+                                                echo "<td>" . $player["age"] . "</td>";
+                                                echo "<td>" . $player["nationality"] . "</td>";
+                                                echo "<td>" . $player["shirt_number"] . "</td>";
+                                                echo "<td>" . $player["appearances"] . "</td>";
+                                                echo "<td>" . $player["goals"] . "</td>";
+                                                echo "<td><a href=\"player_details.php?id=" . $player["id"] . "\">View Details</a></td>";
+                                                echo "</tr>";
+                                              }
+                                            ?>
+                                          </tbody>
+                                        </table>
+                                      </div>
 								</div>
 
 						</section>

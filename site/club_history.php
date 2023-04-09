@@ -20,11 +20,11 @@
 		<div id="page-wrapper">
 
 			<!-- Header -->
-			<header id="header">
-				<h1 id="logo"><a href="index.php">Twenty <span>by HTML5 UP</span></a></h1>
-				<nav id="nav">
+							<header id="header">
+					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
+					<nav id="nav">
 						<ul>
-							<li class="current"><a href="club_details.php">Home</a></li>
+							<li class="current"><a href="#">Home</a></li>
 							<li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
@@ -42,7 +42,7 @@
 							<li><a href="#" class="button primary">Sign Up</a></li>
 						</ul>
 					</nav>
-			</header>
+				</header>
 			<!-- Main -->
 			<article id="main">
 

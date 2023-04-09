@@ -17,10 +17,10 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
+					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="club_details.php">Home</a></li>
+							<li class="current"><a href="#">Home</a></li>
 							<li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
