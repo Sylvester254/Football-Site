@@ -17,7 +17,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
+					<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="#">Home</a></li>
@@ -44,9 +44,8 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon solid fa-envelope"></span>
-						<h2>Get In Touch</h2>
-						<p>Use the form below to give /dev/null a piece of your mind.</p>
+						<h2>Login</h2>
+						<p>Register <a href='user_register.php'>here</a> if you're not registered<p>
 					</header>
 
 					<!-- One -->
@@ -54,28 +53,51 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
-										<div class="row gtr-50">
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="7"></textarea>
-											</div>
-											<div class="col-12">
-												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
-								</div>
+                     
+                                    <form action="user_login.php" method="post">
+                                        <div class="form-group">
+                                            <label for="username">Username:</label>
+                                            <input type="text" class="form-control" id="username" name="username" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Password:</label>
+                                            <input type="password" class="form-control" id="password" name="password" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mt-2">Login</button>
+                                    </form>
+                                    <?php
+                                    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                                        $username = $_POST['username'];
+                                        $password = $_POST['password'];
+                                
+                                        $user_data = json_decode(file_get_contents("jsons/user_details.json"), true);
+                                
+                                        $user_exists = false;
+                                        $correct_password = false;
+                                
+                                        foreach ($user_data as $user) {
+                                            if ($user['username'] === $username) {
+                                                $user_exists = true;
+                                                if (password_verify($password, $user['password'])) {
+                                                    $correct_password = true;
+                                                }
+                                                break;
+                                            }
+                                        }
+                                
+                                        if (!$user_exists) {
+                                            echo "User does not exist. Please <a href='register.html'>register</a> first.";
+                                        } elseif (!$correct_password) {
+                                            echo "Incorrect password. Please try again. <a href='user_login.php'>Back to login</a>.";
+                                        } else {
+                                            echo "Login successful! Welcome, " . htmlspecialchars($username) . ".";
+                                            // Redirect to the club_details.php page.
+                                            header("Location: club_details.php");
+                                            exit;
+                                        }
+                                    }
+                                    ?>
+                                </div>
 
 						</section>
 

@@ -13,7 +13,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
+					<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="club_details.php">Home</a></li>

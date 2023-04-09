@@ -17,7 +17,7 @@
 
 			<!-- Header -->
 							<header id="header">
-					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
+					<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="#">Home</a></li>
@@ -40,7 +40,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							<li><a href="user_login.php" class="button primary">Sign Up</a></li>
 						</ul>
 					</nav>
 <<<<<<< HEAD

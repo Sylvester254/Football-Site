@@ -1,23 +1,19 @@
 <!DOCTYPE HTML>
-<!--
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Contact - Twenty by HTML5 UP</title>
+		<title>fan register</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
 	</head>
 	<body class="contact is-preload">
 		<div id="page-wrapper">
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.php">Manchester <span>United</span></a></h1>
+					<h1 id="logo"><a href="club_details.php">Manchester <span>United</span></a></h1>
 					<nav id="nav">
 						<ul>
 							<li class="current"><a href="#">Home</a></li>
@@ -35,7 +31,7 @@
 									</li>
 								</ul>
 							</li>
-							<li><a href="#" class="button primary">Sign Up</a></li>
+							<li><a href="user_login.php" class="button primary">Sign Up</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -44,9 +40,8 @@
 				<article id="main">
 
 					<header class="special container">
-						<span class="icon solid fa-envelope"></span>
-						<h2>Get In Touch</h2>
-						<p>Use the form below to give /dev/null a piece of your mind.</p>
+						<h2>Fan Registration</h2>
+						<p>Login <a href='user_login.php'>here</a> if already registered.</p>
 					</header>
 
 					<!-- One -->
@@ -54,27 +49,56 @@
 
 							<!-- Content -->
 								<div class="content">
-									<form>
-										<div class="row gtr-50">
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="name" placeholder="Name" />
-											</div>
-											<div class="col-6 col-12-mobile">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-											<div class="col-12">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-											<div class="col-12">
-												<textarea name="message" placeholder="Message" rows="7"></textarea>
-											</div>
-											<div class="col-12">
-												<ul class="buttons">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+<!-- 								 <h1 class="mt-4 mb-4">Registration</h1> -->
+                                    <?php
+                                    if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+                                        $username = trim($_POST['username']);
+                                        $email = trim($_POST['email']);
+                                        $password = trim($_POST['password']);
+                                        
+                                        $user_data = json_decode(file_get_contents("jsons/user_details.json"), true);
+                                        if ($user_data === null) {
+                                            $user_data = array();
+                                        }
+                                        
+                                        $user_exists = false;
+                                        foreach ($user_data as $user) {
+                                            if ($user['username'] === $username) {
+                                                $user_exists = true;
+                                                break;
+                                            }
+                                        }
+                            
+                                        if ($user_exists) {
+                                            echo "<div class='alert alert-danger'>Username already exists. Use a different username or <a href='user_login.php'>login</a> instead.</div>";
+                                        } else {
+                                            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+                                            $new_user = array(
+                                                "username" => $username,
+                                                "email" => $email,
+                                                "password" => $hashed_password
+                                            );
+                                            $user_data[] = $new_user;
+                                            file_put_contents("jsons/user_details.json", json_encode($user_data, JSON_PRETTY_PRINT));
+                                            echo "<div class='alert alert-success'>Registration successful! Welcome to the club! Please <a href='user_login.php'>login</a>.</div>";
+                                        }
+                                    }
+                                    ?>
+                                    <form action="" method="post">
+                                        <div class="form-group">
+                                            <label for="username">Username:</label>
+                                            <input type="text" class="form-control" id="username" name="username" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email:</label>
+                                            <input type="email" class="form-control" id="email" name="email" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password">Password:</label>
+                                            <input type="password" class="form-control" id="password" name="password" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Register</button>
+                                    </form>
 								</div>
 
 						</section>
