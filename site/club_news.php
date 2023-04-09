@@ -20,22 +20,17 @@
 					<h1 id="logo"><a href="index.html">Twenty <span>by HTML5 UP</span></a></h1>
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="index.php">Welcome</a></li>
+							<li class="current"><a href="club_details.php">Home</a></li>
 							<li class="submenu">
 								<a href="#">Layouts</a>
 								<ul>
-									<li><a href="left-sidebar.php">Left Sidebar</a></li>
-									<li><a href="right-sidebar.php">Right Sidebar</a></li>
-									<li><a href="no-sidebar.php">No Sidebar</a></li>
-									<li><a href="contact.php">Contact</a></li>
+									<li><a href="club_news.php">Club News</a></li>
+									<li><a href="squad.php">Our Squad</a></li>
 									<li class="submenu">
-										<a href="#">Submenu</a>
+										<a href="#">More</a>
 										<ul>
-											<li><a href="#">Dolore Sed</a></li>
-											<li><a href="#">Consequat</a></li>
-											<li><a href="#">Lorem Magna</a></li>
-											<li><a href="#">Sed Magna</a></li>
-											<li><a href="#">Ipsum Nisl</a></li>
+											<li><a href="club_history.php">Club History</a></li>
+											<li><a href="club_management.php">Club Management</a></li>
 										</ul>
 									</li>
 								</ul>
