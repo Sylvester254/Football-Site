@@ -5,10 +5,12 @@
     "stadium_img1": "images/old-trafford.jpg",
     "stadium_img2": "images/traf.jpg",
     "home_kit": "Red and White",
-    "h_kit_img": "",
+    "h_kit_img": "images/HK.png",
     "away_kit": "Blue and White",
-    "a_kit_img": "",
+    "a_kit_img": "images/AK.png",
     "league": "English Premier League",
+    "third_kit": "Black and White",
+    "t_kit_img": "images/Tk.png",
     "logo_url": "images/logo.png"
   },
   "history": {
