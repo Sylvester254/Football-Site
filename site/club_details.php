@@ -137,7 +137,7 @@
 				<ul class="buttons">
     					<li><a href="#" class="button"><?php echo $league_name ?>
 				</a></li>
-				
+
 				</ul>
 				<header>
 					<h2>Want to<strong> know more</strong>?</h2>

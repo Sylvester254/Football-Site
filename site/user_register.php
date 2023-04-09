@@ -13,7 +13,7 @@
 
 				<!-- Content -->
 					<div class="content">
-<!-- 								 <h1 class="mt-4 mb-4">Registration</h1> -->
+
                         <?php
                         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                             $username = trim($_POST['username']);
