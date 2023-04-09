@@ -1,73 +1,69 @@
 <?php include 'header.php'; ?>
 <!-- Main -->
-				<article id="main">
-					<!-- One -->
-						<section class="wrapper style4 container">
-							<div class="row gtr-150">
-								<div class="col-4 col-12-narrower">
-									<!-- Sidebar -->
-										<div class="sidebar">
-											<section>
-												<header>
-													<h3>Magna Feugiat</h3>
-												</header>
-												<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit..</p>
-												<footer>
-													<ul class="buttons">
-														<li><a href="#" class="button small">Learn More</a></li>
-													</ul>
-												</footer>
-											</section>
-
-											<section>
-												<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-												<header>
-													<h3>Amet Lorem Tempus</h3>
-												</header>
-												<p>Sed tristique purus vitae volutpat commodo suscipit amet sed nibh. Proin a ullamcorper sed blandit. Sed tristique purus vitae volutpat commodo suscipit ullamcorper sed blandit lorem ipsum dolore.</p>
-												<footer>
-													<ul class="buttons">
-														<li><a href="#" class="button small">Learn More</a></li>
-													</ul>
-												</footer>
-											</section>
-										</div>
+<article id="main">
+	<!-- One -->
+	<section class="wrapper style4 container">
+		<div class="row gtr-150">
+			<!-- <div class="col-4 col-12-narrower"> -->
+				<!-- Sidebar -->
+				<!-- <div class="sidebar"> -->
+					<section>
+						<?php
+						$news = json_decode(file_get_contents("jsons/club_news.json"), true);
+						$articles = $news['original_news'];
+						foreach ($articles as $article) {
+							?>
+								<div class="news-article">
+									<h4>
+										<?php echo $article['title']; ?>
+									</h4>
+									<img src="<?php echo $article['image_url']; ?>">
+									<p>
+										<?php echo $article['summary']; ?>
+									</p>
+									<a href="<?php echo $article['url']; ?>" class="button small">Learn More</a>
 								</div>
-								<div class="col-8 col-12-narrower imp-narrower">
-									<!-- Content -->
-										<div class="content">
-											<section>
-												<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-												<header>
-													<h3>Dolore Amet Consequat</h3>
-												</header>
-												<p>Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum massa. Morbi eu faucibus massa. Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est. Curabitur mi justo, tincidunt vel eros ullamcorper, porta cursus justo. Cras vel neque eros. Vestibulum diam.</p>
-												<p>Vestibulum diam quam, mollis at consectetur non, malesuada quis augue. Morbi tincidunt pretium interdum. Morbi mattis elementum orci, nec dictum porta cursus justo. Quisque ultricies lorem in ligula condimentum, et egestas turpis sagittis. Cras ac nunc urna. Nullam eget lobortis purus. Phasellus vitae tortor non est placerat tristique. Sed id sem et massa ornare pellentesque. Maecenas pharetra porta accumsan. </p>
-												<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non hendrerit ipsum arcu tristique est.</p>
-											</section>
-										</div>
-								</div>
-							</div>
-						</section>
+						<?php } ?>
+					</section>
+				</div>
+			</div>
+			<div class="col-8 col-12-narrower imp-narrower">
+				<!-- Content -->
+				<div class="content">
 
-					<!-- Two -->
-						<section class="wrapper style1 container special">
-							<div class="row">
-								<div class="col-4 col-12-narrower">
-									<section>
-										<header>
-											<h3>This is Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-										<footer>
-											<ul class="buttons">
-												<li><a href="#" class="button small">Learn More</a></li>
-											</ul>
-										</footer>
-									</section>
-								</div>
-							</div>
-						</section>
+				</div>
+			</div>
+		</div>
+	</section>
 
-				</article>
+	<!-- Two -->
+	<section class="wrapper style1 container special">
+		<!-- <div class="row"> -->
+			<!-- <div class="col-4 col-12-narrower"> -->
+				<section>
+					<header>
+						<h3>Latest News</h3>
+					</header>
+					<?php
+					$news = json_decode(file_get_contents("jsons/club_news.json"), true);
+					$articles = $news['external_news'];
+					foreach ($articles as $article) {
+						?>
+							<h4>
+								<?= $article['title'] ?>
+							</h4>
+							<p>
+								<?= $article['source'] ?>
+							</p>
+							<p><a href="<?= $article['url'] ?>">Read More</a></p>
+							<?php
+					}
+					?>
+				</section>
+			</div>
+		</div>
+	</section>
+
+
+</article>
 <?php include 'footer.php'; ?>

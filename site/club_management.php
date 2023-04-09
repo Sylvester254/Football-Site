@@ -1,19 +1,13 @@
 <?php include 'header.php'; ?>
-
 		<header class="special container">
-			
 			<h2>Club Management</h2>
 			<p></p>
 		</header>
-
 			<!-- One -->
 			<section class="wrapper style4 container">
 				<!-- Content -->
 				<div class="content">
 					<section>
-<!-- 						<header> -->
-<!-- 							<h3>Club Management</h3> -->
-<!-- 						</header> -->
 						<div class="table-wrapper">
 							<table>
 								<thead>
