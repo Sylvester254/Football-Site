@@ -65,19 +65,6 @@
 
 			<!-- Main -->
 				<article id="main">
-					<!-- <header class="special container">
-						<span class="icon solid fa-chart-bar"></span>
-						<h2>As this is my <strong>twentieth</strong> freebie for HTML5 UP
-						<br />
-						I decided to give it a really creative name.</h2>
-						<p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-						<br />
-						it's minimally designed, fully responsive, built on HTML5/CSS3,
-						and, like all my stuff,
-						<br />
-						released for free under the <a href="http://html5up.net/license">Creative Commons Attribution 3.0</a> license. Have fun!</p>
-					</header> -->
-
 					<!-- Three -->
 					<section class="wrapper style3 container special">
 
@@ -92,7 +79,6 @@
 														alt="Stadium 1" /></a>
 												<header>
 										</header>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, facilis.</p>
 									</section>
 								</div>
 								<div class="col-6 col-12-narrower">
@@ -103,28 +89,28 @@
 								</div>
 						</div>
 							<footer class="major">
+								<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed molestiae dolor maxime eaque iure vel tempore doloremque iusto suscipit aliquam cum ratione, consectetur facilis! Assumenda consectetur optio dolorem error sequi eaque nemo, blanditiis saepe aliquid ducimus earum in, eius soluta labore veritatis maiores repellendus possimus nisi commodi adipisci voluptatum qui quae. Nemo ab, eligendi saepe error asperiores perspiciatis aliquid sequi quos dolorem, quasi dolores amet nisi! Distinctio id rerum nisi fugiat incidunt, ducimus dolor nemo laboriosam ab dolorem minima quo cumque necessitatibus 
+								saepe earum, magni optio vel aut suscipit eaque ratione culpa fuga? Eaque maiores eligendi sunt repudiandae a illo.</p>
 								<ul class="buttons">
 									<li><a href="#" class="button">See More</a></li>
 								</ul>
 							</footer>
-
 					</section>
 				</article>
 
 			<!-- CTA -->
 				<section id="cta">
 					<header>
-						<h2>Ready to do <strong>something</strong>?</h2>
+						<h2>Want to<strong> know more</strong>?</h2>
 						<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
 					</header>
 					<footer>
 						<ul class="buttons">
-							<li><a href="#" class="button primary">Take My Money</a></li>
-							<li><a href="#" class="button">LOL Wut</a></li>
+							<li><a href="club_history.php" class="button primary">Club History</a></li>
+							<li><a href="club_management.php" class="button">Club Management</a></li>
 						</ul>
 					</footer>
 				</section>
-
 			<!-- Footer -->
 				<footer id="footer">
 
@@ -141,7 +127,6 @@
 					</ul>
 
 				</footer>
-
 		</div>
 
 		<!-- Scripts -->
