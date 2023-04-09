@@ -129,8 +129,15 @@
 
 			<!-- CTA -->
 			<section id="cta">
+				<?php
+				$json = file_get_contents('jsons/club_details.json');
+				$data = json_decode($json, true);
+				$league_name = $data['overview']['league'];
+				?>
 				<ul class="buttons">
-					<li><a href="#" class="button">English Premier League (EPL)</a></li>
+    					<li><a href="#" class="button"><?php echo $league_name ?>
+				</a></li>
+				
 				</ul>
 				<header>
 					<h2>Want to<strong> know more</strong>?</h2>
