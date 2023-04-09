@@ -1,20 +1,10 @@
 <?php include 'header.php'; ?>
-
-			<!-- Main -->
+<!-- Main -->
 				<article id="main">
-
-					<header class="special container">
-						<span class="icon solid fa-laptop"></span>
-						<h2>Behold the <strong>Left Sidebar</strong></h2>
-						<p>Where things on the left ... accompany that on the right.</p>
-					</header>
-
 					<!-- One -->
 						<section class="wrapper style4 container">
-
 							<div class="row gtr-150">
 								<div class="col-4 col-12-narrower">
-
 									<!-- Sidebar -->
 										<div class="sidebar">
 											<section>
@@ -42,10 +32,8 @@
 												</footer>
 											</section>
 										</div>
-
 								</div>
 								<div class="col-8 col-12-narrower imp-narrower">
-
 									<!-- Content -->
 										<div class="content">
 											<section>
@@ -58,7 +46,6 @@
 												<p>In vestibulum massa quis arcu lobortis tempus. Nam pretium arcu in odio vulputate luctus. Suspendisse euismod lorem eget lacinia fringilla. Sed sed felis justo. Nunc sodales elit in laoreet aliquam. Nam gravida, nisl sit amet iaculis porttitor, risus nisi rutrum metus, non hendrerit ipsum arcu tristique est.</p>
 											</section>
 										</div>
-
 								</div>
 							</div>
 						</section>
@@ -67,7 +54,6 @@
 						<section class="wrapper style1 container special">
 							<div class="row">
 								<div class="col-4 col-12-narrower">
-
 									<section>
 										<header>
 											<h3>This is Something</h3>
@@ -79,41 +65,9 @@
 											</ul>
 										</footer>
 									</section>
-
-								</div>
-								<div class="col-4 col-12-narrower">
-
-									<section>
-										<header>
-											<h3>Also Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-										<footer>
-											<ul class="buttons">
-												<li><a href="#" class="button small">Learn More</a></li>
-											</ul>
-										</footer>
-									</section>
-
-								</div>
-								<div class="col-4 col-12-narrower">
-
-									<section>
-										<header>
-											<h3>Probably Something</h3>
-										</header>
-										<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
-										<footer>
-											<ul class="buttons">
-												<li><a href="#" class="button small">Learn More</a></li>
-											</ul>
-										</footer>
-									</section>
-
 								</div>
 							</div>
 						</section>
 
 				</article>
-
 <?php include 'footer.php'; ?>

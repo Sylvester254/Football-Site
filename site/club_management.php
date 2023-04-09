@@ -1,31 +1,82 @@
 <?php include 'header.php'; ?>
-			<!-- Main -->
-			<article id="main">
 
-				<header class="special container">
-					<span class="icon solid fa-mobile-alt"></span>
-					<h2>And finally there's <strong>No Sidebar</strong></h2>
-					<p>Where that in the center faces the nameless horrors alone.</p>
-				</header>
+		<header class="special container">
+			
+			<h2>Club Management</h2>
+			<p></p>
+		</header>
 
-				<!-- One -->
-				<section class="wrapper style4 container">
+			<!-- One -->
+			<section class="wrapper style4 container">
+				<!-- Content -->
+				<div class="content">
+					<section>
+<!-- 						<header> -->
+<!-- 							<h3>Club Management</h3> -->
+<!-- 						</header> -->
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Position</th>
+									</tr>
+								</thead>
+								<tbody>
+									<?php
+									// Load the JSON data from file
+									$json = file_get_contents('jsons/management.json');
+									$data = json_decode($json, true);
 
-					<!-- Content -->
-					<div class="content">
-						<section>
-							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
-							<header>
-								<h3>Dolore Amet Consequat</h3>
-							</header>
-						</section>
-					</div>
+									// Loop through the board of directors and output each member
+									foreach ($data['board_of_directors'] as $member) {
+										echo '<tr>';
+										echo '<td>' . $member['name'] . '</td>';
+										echo '<td>' . $member['position'] . '</td>';
+										echo '</tr>';
+									}
 
-				</section>
-
-				<!-- Two -->
-				
-
+									// Loop through the key staff and output each member
+									foreach ($data['key_staff'] as $member) {
+										echo '<tr>';
+										echo '<td>' . $member['name'] . '</td>';
+										echo '<td>' . $member['person'] . '</td>';
+										echo '</tr>';
+									}
+									?>
+								</tbody>
+							</table>
+						</div>
+					</section>
+				</div>
+			</section>
 			</article>
 
+			<style>
+				.table-wrapper {
+					overflow-x: auto;
+				}
+
+				table {
+					width: 100%;
+					border-collapse: collapse;
+					border-spacing: 0;
+					text-align: left;
+				}
+
+				th,
+				td {
+					padding: 0.75em;
+					border-bottom: 1px solid #ccc;
+				}
+
+				th {
+					background-color: #eee;
+					font-weight: bold;
+				}
+
+				tbody tr:hover {
+					background-color: #f5f5f5;
+				}
+			</style>
 <?php include 'footer.php'; ?>
