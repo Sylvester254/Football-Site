@@ -1,6 +1,10 @@
 
 <?php include 'header.php'; ?>
 
+<!-- Add the Bootstrap CSS link -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+
+
 <!-- Main -->
 	<article id="main">
 

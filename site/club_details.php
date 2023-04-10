@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE HTML>
 <html>
 
@@ -34,7 +37,15 @@
 								</li>
 							</ul>
 						</li>
-						<li><a href="user_login.php" class="button primary">Sign Up</a></li>
+						<li>
+							<?php if (isset($_SESSION['username'])): ?>
+                				<span>Welcome, <?php echo $_SESSION['username']; ?></span>
+                				<a href="logout.php" class="button primary">Sign Out</a>
+                			<?php else: ?>
+                				<a href="user_login.php" class="button primary">Sign Up</a>
+                			<?php endif; ?>
+						
+						</li>
 					</ul>
 				</nav>
 			</header>
