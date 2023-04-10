@@ -1,11 +1,22 @@
 <?php ob_start(); ?>
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+$id = isset($_GET['id']) ? intval($_GET['id']) : 0;
+
+$player_file = "../players/player_" . $id . ".json";
+
+if (file_exists($player_file)) {
+    $player_data = json_decode(file_get_contents($player_file), true);
+} else {
+    $player_data = null;
+//     echo "<p>Player information is not available.</p>";
+}
+?>
 
 <!-- Main -->
 <article id="main">
 
     <header class="special container">
-        <h2>Player <strong>Details</strong></h2>
+        <h2><?php echo isset($player_data['name']) ? $player_data['name'] : 'Player'; ?> <strong>Details</strong></h2>
     </header>
 
     <!-- One -->
@@ -14,15 +25,6 @@
         <!-- Content -->
         <div class="content">
             <?php
-            $id = isset($_GET['id']) ? intval($_GET['id']) : 0;
-            
-            $player_file = "../players/player_" . $id . ".json";
-            
-            if (file_exists($player_file)) {
-                $player_data = json_decode(file_get_contents($player_file), true);
-
-//             $player_data = json_decode(file_get_contents("../players/player_" . $id . ".json"), true);
-    
                 if ($player_data) {
                 ?>
                 <div class="row">
@@ -79,11 +81,7 @@
                     echo "<p>Player not found.</p>";
                 }
                 ?>
-                <?php
-			} else {
-                echo "<p>Player information is not available.</p>";
-            }?>
-          
+
             <?php
             $comments_data = json_decode(file_get_contents("jsons/comments.json"), true);
             $player_comments = array();
