@@ -35,9 +35,42 @@ section .latest-news {
   color: #333;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 9px;
+  font-family: Arial, sans-serif;
 }
 
+.news-article .article-title {
+  font-weight: bold;
+}
+
+.sponsers {
+  max-width: 800px; /* adjust as needed */
+  margin: 0 auto;
+}
+
+.sponsers h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.sponsers .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sponsers .icons li {
+  flex: 1;
+  text-align: center;
+}
+
+.sponsers .icons img {
+  max-width: 100%; /* adjust as needed */
+  height: auto;
+}
 
 
 body {
@@ -2179,8 +2212,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		button.primary,
 		.button.primary {
-			background: #83d3c9;
-			border-color: #83d3c9;
+			background: #DB1D24;
+			border-color: #DB1D24;
 			color: #fff !important;
 		}
 
@@ -2189,8 +2222,8 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background: #96dad1 !important;
-				border-color: #96dad1 !important;
+				background: #DB1D24 !important;
+				border-color: #DB1D24 !important;
 			}
 
 		input[type="button"].fit,
@@ -2485,7 +2518,7 @@ input, select, textarea {
 			}
 
 			.dropotron > li:hover > a {
-				background: #83d3c9;
+				background: #DB1D24;
 				color: #fff;
 			}
 
@@ -2654,7 +2687,7 @@ input, select, textarea {
 	#footer {
 		background: #E8EEF4;
 		color: #7c8081;
-		padding: 5em 5em 10em 5em;
+		padding: 2em 2em 5em 2em;
 		text-align: center;
 	}
 

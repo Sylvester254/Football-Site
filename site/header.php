@@ -10,6 +10,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="icon" href="images/logo.png" type="image/png">
 <!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
 </head>
 <body class="contact is-preload">
@@ -21,7 +22,7 @@ session_start();
             <ul>
                 <li class="current"><a href="#">Home</a></li>
                 <li class="submenu">
-                    <a href="#">Layouts</a>
+                    <a href="#">Discover</a>
                     <ul>
                         <li><a href="club_news.php">Club News</a></li>
                         <li><a href="squad.php">Our Squad</a></li>

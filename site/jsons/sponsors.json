@@ -1,0 +1,24 @@
+{
+  "sponsors": [
+    {
+      "name": "Aon",
+      "image_path": "images/aon.png",
+      "url": "https://www.Aon.com/"
+    },
+    {
+      "name": "Kohler",
+      "image_path": "images/koh.png",
+      "url": "https://www.Kohler.com/"
+    },
+    {
+      "name": "Adidas",
+      "image_path": "images/adi.png",
+      "url": "https://www.adidas.com/"
+    },
+    {
+      "name": "Chevrolet",
+      "image_path": "images/chevi.png",
+      "url": "https://www.Chevrolet.com/"
+    }
+  ]
+}

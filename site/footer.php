@@ -1,16 +1,40 @@
 <!-- Footer -->
+
 <footer id="footer">
+    <?php
+    // Read the JSON file
+    $json_file = file_get_contents('jsons/sponsors.json');
+
+    // Parse the JSON data into an associative array
+    $data = json_decode($json_file, true);
+
+    // Generate the HTML code for the sponsors section
+    $html = '<section class="sponsors">
+            <h2>Our Sponsors</h2>
+            <ul class="icons">';
+
+    foreach ($data['sponsors'] as $sponsor) {
+        $html .= '<li><a href="' . $sponsor['url'] . '" target="_blank">';
+        $html .= '<img src="' . $sponsor['image_path'] . '" alt="' . $sponsor['name'] . '" style="max-width: 10%; height: auto;">';
+        $html .= '</a></li>';
+    }
+
+    $html .= '</ul>
+        </section>';
+
+    // Output the HTML code
+    echo $html;
+    ?>
+    <h2>Follow</h2>
     <ul class="icons">
-        <li><a href="#" class="icon brands circle fa-twitter"><span class="label">Twitter</span></a></li>
-        <li><a href="#" class="icon brands circle fa-facebook-f"><span class="label">Facebook</span></a></li>
-        <li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
-        <li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
-        <li><a href="#" class="icon brands circle fa-dribbble"><span class="label">Dribbble</span></a></li>
+        <li><a href="https://www.youtube.com/manutd" class="icon brands circle fa-youtube" style="color: red; font-size: 34px;"><span class="label">Youtube</span></a></li>
+        <li><a href="http://instagram.com/manchesterunited" class="icon brands circle fa-instagram" style="color: red; font-size: 34px;"><span class="label">Instagram</span></a></li>
+        <li><a href="https://twitter.com/ManUtd" class="icon brands circle fa-twitter-square" style="color: red; font-size: 34px;"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/manchesterunited" class="icon brands circle fa-facebook" style="color: red; font-size: 34px;"><span class="label">Facebook</span></a></li>
     </ul>
 
     <ul class="copyright">
-        <li>&copy; Untitled</li>
-        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        <li>&copy; Manchester United</li>
     </ul>
 </footer>
 

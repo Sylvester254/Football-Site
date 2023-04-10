@@ -1,0 +1,25 @@
+{
+    "original_news": [
+        {
+            "id": 1,
+            "title": "Manchester United Win Against Rivals",
+            "summary": "Manchester United secures an important victory against their rivals in a thrilling match.",
+            "content": "Manchester United showcased their determination and skill during their recent match against their rivals. In a thrilling encounter, the team overcame a tough challenge and managed to secure an important victory. With a relentless attack and solid defense, Manchester United dominated the game from start to finish. The team's star player scored a stunning goal, showcasing his exceptional skill and talent. The fans were on their feet, cheering for their beloved team as they secured a memorable win against their fierce rivals. This victory is a testament to the hard work and dedication of the Manchester United players and coaching staff, and it will surely be remembered for years to come.",
+            "date_published": "2023-04-01"
+        },
+        {
+            "id": 2,
+            "title": "Signing of Donny van de Beek from Ajax",
+            "summary": "Manchester United has signed Dutch midfielder Donny van de Beek from Ajax for a transfer fee of €35 million.",
+            "content": "Manchester United has confirmed the signing of Dutch midfielder Donny van de Beek from Ajax. The 24-year-old midfielder has signed a five-year contract with the club, with an option for a further year. Van de Beek is highly regarded for his technical ability, vision and passing range, and is expected to add depth and creativity to the Manchester United midfield. The transfer fee is believed to be in the region of €35 million. Manchester United fans are excited to see van de Beek in action and are optimistic about the impact he will have on the team's performance this seasonVan de Beek started his football career with Ajax in 2015 and quickly established himself as one of the most talented midfielders in Europe. He played a key role in Ajax's impressive run to the semi-finals of the UEFA Champions League in 2018-2019, scoring crucial goals against Real Madrid and Juventus. Van de Beek has also represented the Netherlands national team, earning 19 caps and scoring 2 goals. Manchester United manager Ole Gunnar Solskjaer has praised van de Beek's versatility and work ethic, and believes that he will be a valuable addition to the squad.",
+            "date_published": "2023-04-08"
+        },
+        {
+            "id": 3,
+            "title": "Garnacho Named U18s Player of the Year",
+            "summary": "Young midfielder impresses for Manchester United's U18 team, named Player of the Year.",
+            "content": "Manchester United's U18 team has a rising star in its midst, as young midfielder Alejandro Garnacho has been named Player of the Year. Garnacho, who joined the club's academy from Atletico Madrid last year, has made a significant impact in his debut season in English football. The 17-year-old has impressed with his technical ability, work rate, and eye for goal, scoring 7 goals and providing 3 assists in 20 appearances. The club is excited about Garnacho's potential and is looking forward to seeing him develop further in the coming years.In an outstanding season, young talent Garnacho has been named Manchester United U18s Player of the Year. The Spanish forward has impressed with his pace, dribbling skills, and eye for goal. He scored an impressive 10 goals and provided five assists in just 20 appearances for the U18s, showcasing his potential to become a future star for the club. Garnacho is highly regarded by the Manchester United coaching staff, who have praised his work ethic and attitude on and off the pitch. The 18-year-old is determined to continue developing his skills and make an impact for the first team in the near future.",
+            "date_published": "2023-04-09"
+        }
+    ]
+}
