@@ -45,10 +45,10 @@
 					$articles = $news['external_news'];
 					foreach ($articles as $article) {
 						?>
-							<h4>
-								<?= $article['title'] ?>
+							<h4 style="text-transform: capitalize;">
+       						 	<?= strtolower($article['title']) ?>
 							</h4>
-							<p>
+									<p>
 								<?= $article['source'] ?>
 							</p>
 							<p><a href="<?= $article['url'] ?>">Read More</a></p>

@@ -101,19 +101,16 @@ session_start();
 						</div>
 					</div>
 					<footer class="major">
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed molestiae dolor maxime eaque
-							iure vel tempore doloremque iusto suscipit aliquam cum ratione, consectetur facilis!
-							Assumenda consectetur optio dolorem error sequi eaque nemo, blanditiis saepe aliquid ducimus
-							earum in, eius soluta labore veritatis maiores repellendus possimus nisi commodi adipisci
-							voluptatum qui quae. Nemo ab, eligendi saepe error asperiores perspiciatis aliquid sequi
-							quos dolorem, quasi dolores amet nisi! Distinctio id rerum nisi fugiat incidunt, ducimus
-							dolor nemo laboriosam ab dolorem minima quo cumque necessitatibus
-							saepe earum, magni optio vel aut suscipit eaque ratione culpa fuga? Eaque maiores eligendi
-							sunt repudiandae a illo.</p>
-						<!-- <ul class="buttons">
-									<li><a href="#" class="button">See More</a></li>
-								</ul> -->
+    				<?php
+						// Read the JSON file
+						$json_file = file_get_contents('jsons/about.json');
+						$content = json_decode($json_file, true);
+
+						// Display the content
+					echo "<p>" . $content['content'] . "</p>";
+					?>
 					</footer>
+
 					<br><br>
 					<h2>Our Kits</h2>
 					<div class="row">
