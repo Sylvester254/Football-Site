@@ -109,6 +109,9 @@ session_start();
 						// Display the content
 					echo "<p>" . $content['content'] . "</p>";
 					?>
+						<!-- <ul class="buttons">
+							<li><a href="#" class="button">See More</a></li>
+						</ul> -->
 					</footer>
 
 					<br><br>
@@ -152,7 +155,6 @@ session_start();
 				</ul>
 				<header>
 					<h2>Want to<strong> know more</strong>?</h2>
-					<p>Proin a ullamcorper elit, et sagittis turpis integer ut fermentum.</p>
 				</header>
 				<footer>
 					<ul class="buttons">
