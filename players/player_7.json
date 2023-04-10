@@ -1,0 +1,22 @@
+{
+  "id": 7,
+  "name": "Fred",
+  "image": "/images/fred.jpg",
+  "position": "Central Midfield",
+  "age": 29,
+  "nationality": "Brazil",
+  "shirt_number": 17,
+  "appearances": 19,
+  "goals": 1,
+  "biography": "Fred is a Brazilian professional footballer who plays as a central midfielder for Manchester United. He joined the club in 2018 and has since become an essential part of the team's midfield, known for his tenacity, energy, and passing ability.",
+  "key_facts": {
+    "club_history": ["Internacional", "Shakhtar Donetsk", "Manchester United"],
+    "current_season_appearances": 19,
+    "current_season_goals": 1
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_fred",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_fred",
+    "podcasts": "https://www.example.com/podcasts_fred"
+  }
+}

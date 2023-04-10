@@ -1,0 +1,22 @@
+{
+  "id": 5,
+  "name": "Luke Shaw",
+  "image": "/images/shaw.jpg",
+  "position": "Left Back",
+  "age": 27,
+  "nationality": "England",
+  "shirt_number": 23,
+  "appearances": 17,
+  "goals": 1,
+  "biography": "Luke Shaw is an English professional footballer who plays as a left-back for Manchester United. Known for his speed and crossing ability, Shaw has established himself as one of the Premier League's top fullbacks.",
+  "key_facts": {
+    "club_history": ["Southampton", "Manchester United"],
+    "current_season_appearances": 17,
+    "current_season_goals": 1
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_shaw",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_shaw",
+    "podcasts": "https://www.example.com/podcasts_shaw"
+  }
+}

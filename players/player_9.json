@@ -1,0 +1,22 @@
+{
+  "id": 9,
+  "name": "Bruno Fernandes",
+  "image": "/images/fernandes.jpg",
+  "position": "Attacking Midfield",
+  "age": 28,
+  "nationality": "Portugal",
+  "shirt_number": 18,
+  "appearances": 20,
+  "goals": 10,
+  "biography": "Bruno Fernandes is a Portuguese professional footballer who plays as an attacking midfielder for Manchester United. Since joining the club in 2020, Fernandes has quickly become a fan favorite due to his creativity, goal-scoring ability, and leadership on the pitch.",
+  "key_facts": {
+    "club_history": ["Novara", "Udinese", "Sampdoria", "Sporting CP", "Manchester United"],
+    "current_season_appearances": 20,
+    "current_season_goals": 10
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_fernandes",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_fernandes",
+    "podcasts": "https://www.example.com/podcasts_fernandes"
+  }
+}

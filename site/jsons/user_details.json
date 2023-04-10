@@ -8,5 +8,10 @@
         "username": "kiranga",
         "email": "iamkiranga@gmail.com",
         "password": "$2y$10$chdgFmud5WiSyvIeCOX0WezW5iUo.V6UqkUTTZqPiZiBd5aH.AXwe"
+    },
+    {
+        "username": "alex",
+        "email": "alex@gmail.com",
+        "password": "$2y$10$gmpfSseeWZF.S9GxxkvjFuxdGS9Paw.i3oR7PohWtbtV1gYmQ6ju2"
     }
 ]

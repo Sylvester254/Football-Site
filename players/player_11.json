@@ -1,0 +1,21 @@
+{
+  "id": 11,
+  "name": "Marcus Rashford",
+  "image": "/images/rashford.jpg",
+  "position": "Left Winger",
+  "age": 25,
+  "nationality": "England",
+  "shirt_number": 10,
+  "appearances": 18,
+  "goals": 7,
+  "biography": "Marcus Rashford is an English professional footballer who plays as a left winger for Manchester United. A product of the club's youth academy, Rashford has become one of the team's most potent attacking threats, known for his speed, skill, and finishing ability.",
+  "key_facts": {
+    "club_history": ["Manchester United"],
+    "current_season_appearances": 18,
+    "current_season_goals": 7
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_rashford",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_rashford"
+}
+}

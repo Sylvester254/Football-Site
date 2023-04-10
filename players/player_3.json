@@ -1,0 +1,22 @@
+{
+  "id": 3,
+  "name": "Victor Lindelof",
+  "image": "/images/lindelof.jpg",
+  "position": "Centre Back",
+  "age": 28,
+  "nationality": "Sweden",
+  "shirt_number": 2,
+  "appearances": 16,
+  "goals": 0,
+  "biography": "Victor Lindelof is a Swedish professional footballer who plays as a centre-back for Manchester United. He is known for his composure on the ball and his ability to read the game.",
+  "key_facts": {
+    "club_history": ["Vasteras SK", "Benfica", "Manchester United"],
+    "current_season_appearances": 16,
+    "current_season_goals": 0
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_lindelof",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_lindelof",
+    "podcasts": "https://www.example.com/podcasts_lindelof"
+  }
+}

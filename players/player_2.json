@@ -1,0 +1,22 @@
+{
+  "id": 2,
+  "name": "Aaron Wan-Bissaka",
+  "image": "/images/wan_bissaka.jpg",
+  "position": "Right Back",
+  "age": 25,
+  "nationality": "England",
+  "shirt_number": 29,
+  "appearances": 18,
+  "goals": 1,
+  "biography": "Aaron Wan-Bissaka is an English professional footballer who plays as a right-back for Manchester United. He has been praised for his defensive ability, especially his tackling and one-on-one duels.",
+  "key_facts": {
+    "club_history": ["Crystal Palace", "Manchester United"],
+    "current_season_appearances": 18,
+    "current_season_goals": 1
+  },
+  "additional_content": {
+    "goal_highlights": "https://www.example.com/goal_highlights_wan_bissaka",
+    "newspaper_articles": "https://www.example.com/newspaper_articles_wan_bissaka",
+    "podcasts": "https://www.example.com/podcasts_wan_bissaka"
+  }
+}
