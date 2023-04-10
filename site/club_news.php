@@ -4,9 +4,6 @@
 	<!-- One -->
 	<section class="wrapper style4 container">
 		<div class="row gtr-150">
-			<!-- <div class="col-4 col-12-narrower"> -->
-				<!-- Sidebar -->
-				<!-- <div class="sidebar"> -->
 					<section>
 						<?php
 						$news = json_decode(file_get_contents("jsons/club_news.json"), true);
@@ -21,7 +18,8 @@
 									<p>
 										<?php echo $article['summary']; ?>
 									</p>
-									<a href="<?php echo $article['url']; ?>" class="button small">Learn More</a>
+									<a href="<?php echo $article['url']; ?>" class="">Learn More</a>
+									<br><br>
 								</div>
 						<?php } ?>
 					</section>
@@ -38,12 +36,8 @@
 
 	<!-- Two -->
 	<section class="wrapper style1 container special">
-		<!-- <div class="row"> -->
-			<!-- <div class="col-4 col-12-narrower"> -->
-				<section>
-					<header>
-						<h3>Latest News</h3>
-					</header>
+		<h3>Latest News</h3>
+				<section class="latest-news">
 					<?php
 					$news = json_decode(file_get_contents("jsons/club_news.json"), true);
 					$articles = $news['external_news'];
@@ -60,10 +54,6 @@
 					}
 					?>
 				</section>
-			</div>
-		</div>
 	</section>
-
-
 </article>
 <?php include 'footer.php'; ?>
