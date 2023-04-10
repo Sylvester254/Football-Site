@@ -20,8 +20,25 @@ section, summary, time, mark, audio, video {
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
+footer, header, hgroup, menu, nav {
+	display: block;
+}
+
+section .latest-news {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+}
+
+.wrapper h3 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+
 
 body {
 	line-height: 1;
@@ -107,7 +124,7 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		color: #3fb1a3;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		/* border-bottom: dotted 1px; */
 	}
 
 		a:hover {
@@ -2591,7 +2608,7 @@ input, select, textarea {
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 4em 0;
 	}
 
 		#main > :last-child {
