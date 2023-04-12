@@ -112,3 +112,13 @@
     line-height: 1.6;
     text-align: justify;
 }
+
+
+.zoom {
+    transition: transform 0.2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    z-index: -1;
+}

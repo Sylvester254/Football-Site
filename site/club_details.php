@@ -23,71 +23,66 @@
 				</div>
 			</section>
 
-			<!-- Main -->
-			<article id="main">
-				<!-- Three -->
-				<section class="wrapper style3 container special">
-
-					<header class="major">
-						<h2>Old<strong>Trafford</strong></h2>
-					</header>
-
-					<div class="row">
-						<div class="col-6 col-12-narrower">
-							<section>
-								<a href="#" class="image featured"><img
-										src="<?php echo $data['overview']['stadium_img1']; ?>" alt="Stadium 1" /></a>
-								<header>
-								</header>
-							</section>
-						</div>
-						<div class="col-6 col-12-narrower">
-							<section>
-								<a href="#" class="image featured"><img
-										src="<?php echo $data['overview']['stadium_img2']; ?>" alt="Stadium 2" /></a>
-							</section>
-						</div>
-					</div>
-					<footer class="major">
-    				<?php
-						// Read the JSON file
-						$json_file = file_get_contents('jsons/about.json');
-						$content = json_decode($json_file, true);
-
-						// Display the content
-					echo "<p>" . $content['content'] . "</p>";
-					?>
-						<!-- <ul class="buttons">
-							<li><a href="#" class="button">See More</a></li>
-						</ul> -->
-					</footer>
-
-					<br><br>
-					<h2>Our Kits</h2>
-					<div class="row">
-						<!-- kits -->
-						<div class="col-6 col-12-narrower">
-							<section>
-								<p>Home Kit</p>
-								<img src="<?php echo $data['overview']['h_kit_img']; ?>" alt="Away kit" />
-							</section>
-						</div>
-						<div class="col-6 col-12-narrower">
-							<section>
-								<p>Away Kit</p>
-								<img src="<?php echo $data['overview']['a_kit_img']; ?>" alt="Away kit" />
-							</section>
-						</div>
-						<div class="col-6 col-12-narrower">
-							<section>
-								<p>Third Kit</p>
-								<img src="<?php echo $data['overview']['t_kit_img']; ?>" alt="Third kit" />
-							</section>
-						</div>
-					</div>
-				</section>
-			</article>
-
+            <!-- Main -->
+            <article id="main">
+                <!-- Three -->
+                <section class="wrapper style3 container special">
+                    <header class="major">
+                        <h2>Old<strong>Trafford</strong></h2>
+                    </header>
+            
+                    <div class="row">
+                        <div class="col-md-6">
+                            <section>
+                                <a href="#" class="image featured">
+                                    <img src="<?php echo $data['overview']['stadium_img1']; ?>" alt="Stadium 1" class="zoom" />
+                                </a>
+                            </section>
+                        </div>
+                        <div class="col-md-6">
+                            <section>
+                                <a href="#" class="image featured">
+                                    <img src="<?php echo $data['overview']['stadium_img2']; ?>" alt="Stadium 2" class="zoom" />
+                                </a>
+                            </section>
+                        </div>
+                    </div>
+                    <footer class="major">
+                        <?php
+                        // Read the JSON file
+                        $json_file = file_get_contents('jsons/about.json');
+                        $content = json_decode($json_file, true);
+            
+                        // Display the content
+                        echo "<p>" . $content['content'] . "</p>";
+                        ?>
+                    </footer>
+            
+                    <br><br>
+                    <h2>Our Kits</h2>
+                    <div class="row">
+                        <!-- kits -->
+                        <div class="col-md-4">
+                            <section>
+                                <p>Home Kit</p>
+                                <img src="<?php echo $data['overview']['h_kit_img']; ?>" alt="Home kit" class="zoom" />
+                            </section>
+                        </div>
+                        <div class="col-md-4">
+                            <section>
+                                <p>Away Kit</p>
+                                <img src="<?php echo $data['overview']['a_kit_img']; ?>" alt="Away kit" class="zoom" />
+                            </section>
+                        </div>
+                        <div class="col-md-4">
+                            <section>
+                                <p>Third Kit</p>
+                                <img src="<?php echo $data['overview']['t_kit_img']; ?>" alt="Third kit" class="zoom" />
+                            </section>
+                        </div>
+                    </div>
+                </section>
+            </article>
 			<!-- CTA -->
 			<section id="cta">
 				<?php
