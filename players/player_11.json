@@ -1,7 +1,7 @@
 {
   "id": 11,
   "name": "Marcus Rashford",
-  "image": "/images/rashford.jpg",
+  "image": "../images/rashford.jpg",
   "position": "Left Winger",
   "age": 25,
   "nationality": "England",

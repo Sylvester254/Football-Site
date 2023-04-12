@@ -1,7 +1,7 @@
 {
   "id": 9,
   "name": "Bruno Fernandes",
-  "image": "/images/fernandes.jpg",
+  "image": "../images/fernandes.jpg",
   "position": "Attacking Midfield",
   "age": 28,
   "nationality": "Portugal",

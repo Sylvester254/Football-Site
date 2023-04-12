@@ -1,7 +1,7 @@
 {
   "id": 2,
   "name": "Aaron Wan-Bissaka",
-  "image": "/images/wan_bissaka.jpg",
+  "image": "../images/bissaka.jpg",
   "position": "Right Back",
   "age": 25,
   "nationality": "England",

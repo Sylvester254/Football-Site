@@ -1,6 +1,7 @@
 {
   "id": 2,
   "name": "Harry Maguire",
+  "image": "../images/maguire.jpg",
   "position": "Centre Back",
   "age": 29,
   "nationality": "England",

@@ -1,7 +1,7 @@
 {
   "id": 3,
   "name": "Victor Lindelof",
-  "image": "/images/lindelof.jpg",
+  "image": "../images/lindelof.jpg",
   "position": "Centre Back",
   "age": 28,
   "nationality": "Sweden",

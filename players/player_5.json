@@ -1,7 +1,7 @@
 {
   "id": 5,
   "name": "Luke Shaw",
-  "image": "/images/shaw.jpg",
+  "image": "../images/shaw.jpg",
   "position": "Left Back",
   "age": 27,
   "nationality": "England",

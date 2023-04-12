@@ -1,7 +1,7 @@
 {
   "id": 1,
   "name": "David de Gea",
-  "image": " "
+  "image": "../images/de_gea.jpg",
   "position": "Goalkeeper",
   "age": 31,
   "nationality": "Spain",

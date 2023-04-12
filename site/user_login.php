@@ -1,5 +1,4 @@
 <?php
-session_start();
 include 'header.php';
 ?>
 <!-- Main -->
@@ -16,10 +15,10 @@ include 'header.php';
 				<!-- Content -->
 					<div class="content">
          
-                        <form action="user_login.php" method="post">
-                            <div class="form-group">
-                                <label for="username">Username:</label>
-                                <input type="text" class="form-control" id="username" name="username" required>
+                        <form action="user_login.php" method="post" style="max-width: 400px; margin: 0 auto;">
+                            <div class="form-group" style="margin-bottom: 1rem;">
+                                <label for="username" style="display: inline-block; margin-bottom: 0.5rem;">Username:</label>
+                                <input type="text" class="form-control" id="username" name="username" required style="display: block; width: 100%; padding: 0.375rem 0.75rem; font-size: 1rem; line-height: 1.5; color: #495057; background-color: #fff; background-clip: padding-box; border: 1px solid #ced4da; border-radius: 0.25rem; transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;">
                             </div>
                             <div class="form-group">
                                 <label for="password">Password:</label>

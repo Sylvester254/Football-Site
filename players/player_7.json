@@ -1,7 +1,7 @@
 {
   "id": 7,
   "name": "Fred",
-  "image": "/images/fred.jpg",
+  "image": "../images/fred.jpg",
   "position": "Central Midfield",
   "age": 29,
   "nationality": "Brazil",

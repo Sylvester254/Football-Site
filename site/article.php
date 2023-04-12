@@ -25,13 +25,18 @@ if (!$article) {
 ?>
 
 <!-- Display the article content -->
-<section class="wrapper style4 container">
-    <h3>
-        <?php echo $article['title']; ?>
-    </h3>
-    <p>
-        <?php echo $article['content']; ?>
-    </p>
+<section class="container my-5 article-page">
+    <div class="row">
+        <div class="col-12">
+            <h3 class="mb-4">
+                <?php echo $article['title']; ?>
+            </h3>
+            <p>
+                <?php echo $article['content']; ?>
+            </p>
+        </div>
+    </div>
 </section>
+
 
 <?php include 'footer.php'; ?>

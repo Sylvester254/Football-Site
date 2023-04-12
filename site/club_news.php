@@ -1,44 +1,35 @@
 <?php include 'header.php'; ?>
 <!-- Main -->
 <article id="main">
-	<!-- One -->
-	<section class="wrapper style4 container">
-		<h3>News Articles</h3>
-		<div class="row gtr-150">
-					<section>
-						<?php
-						$news = json_decode(file_get_contents("jsons/articles.json"), true);
-						$articles = $news['original_news'];
-						foreach ($articles as $article) {
-							?>
-								<div class="news-article">
-									<h4 class="article-title">
-										<?php echo $article['title']; ?>
-									</h4>
-									<!-- <img src="<?php echo $article['image_url']; ?>"> -->
-									<p>
-										<?php echo $article['summary']; ?>
-									</p>
-									<a href="article.php?id=<?php echo $article['id']; ?>">Learn More</a>
-									<!-- <a href="article.php?id=1">Learn More</a> -->
-											<br><br>
-								</div>
-						<?php } ?>
-					</section>
-		</div>
-			</div>
-			<div class="col-8 col-12-narrower imp-narrower">
-				<!-- Content -->
-				<div class="content">
+    <!-- One -->
+    <section class="wrapper style4 container">
+        <h3 class="mb-4">News Articles</h3>
+        <div class="row">
+            <?php
+            $news = json_decode(file_get_contents("jsons/articles.json"), true);
+            $articles = $news['original_news'];
+            foreach ($articles as $article) {
+            ?>
+            <div class="col-md-6 col-lg-4 mb-4">
+                <div class="card news-article">
+                    <div class="card-body">
+                        <h4 class="card-title article-title">
+                            <?php echo $article['title']; ?>
+                        </h4>
+                        <p class="card-text">
+                            <?php echo $article['summary']; ?>
+                        </p>
+                        <a href="article.php?id=<?php echo $article['id']; ?>" class="card-link">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
+        </div>
+    </section>
 
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<!-- Two -->
+<!-- Two -->
 	<section class="wrapper style1 container special">
-		<h3>Latest News</h3>
+		<h3>More News</h3>
 				<section class="latest-news">
 					<?php
 					$news = json_decode(file_get_contents("jsons/club_news.json"), true);

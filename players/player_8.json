@@ -1,6 +1,7 @@
 {
   "id": 8,
   "name": "Paul Pogba",
+  "image": "../images/pogba.jpeg",
   "position": "Central Midfielder",
   "age": 29,
   "nationality": "France",
